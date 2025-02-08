@@ -1,0 +1,119 @@
+[
+  {
+    "id": "neptune-urban",
+    "name": "Neptune Urban Edition",
+    "series": "Neptune",
+    "price": 74.99,
+    "image": "/productPhotos/Neptune/UrbanEdition.png",
+    "description": "Dive into the rhythm of the city without losing touch with the serenity of the ocean. The Neptune Urban Edition sunglasses are crafted for those who crave the balance between urban energy and coastal calm. Featuring a sleek metal frame and polarized glass lenses, these sunglasses offer superior clarity and UV protection, perfect for navigating city streets while staying connected to the soothing essence of the sea.",
+    "features": [
+      "High-quality metal frame for a refined, urban look",
+      "Polarized glass lenses with superior clarity and full UV protection",
+      "Lightweight and durable, ideal for everyday city wear with a touch of ocean inspiration"
+    ]
+  },
+  {
+    "id": "neptune-fusion",
+    "name": "Neptune Fusion Edition",
+    "series": "Neptune",
+    "price": 74.99,
+    "image": "/productPhotos/Neptune/FusionEdition.png",
+    "description": "Embrace the best of both worlds with the Neptune Fusion Edition sunglasses. Blending sustainable wood and sleek metal, this edition captures the harmony of land and sea. Designed for the modern explorer, these sunglasses offer polarized lenses that enhance clarity and reduce glare, whether you’re by the water’s edge or exploring the city’s hidden gems.",
+    "features": [
+      "Wood frame for a natural aesthetic",
+      "Polarized lenses that enhance contrast and reduce glare",
+      "Versatile design suited for both urban adventures and seaside escapes"
+    ]
+  },
+  {
+    "id": "neptune-explorer",
+    "name": "Neptune Explorer Edition",
+    "series": "Neptune",
+    "price": 74.99,
+    "image": "/productPhotos/Neptune/ExplorerEdition.png",
+    "description": "For those who are drawn to the call of the waves, the Neptune Explorer Edition sunglasses are built to endure. With a lightweight yet robust frame and scratch-resistant lenses, this edition is designed for the adventurer who seeks the freedom of the open sea. Stay protected and stylish, whether you’re sailing, surfing, or simply soaking up the sun.",
+    "features": [
+      "Durable frame designed for active, outdoor use",
+      "Scratch-resistant lenses with full UV protection for all-day comfort",
+      "Flexible hinges and secure fit for dynamic movement, inspired by ocean explorers"
+    ]
+  },
+  {
+    "id": "alpine-urban",
+    "name": "Alpine Urban Edition",
+    "series": "Alpine",
+    "price": 74.99,
+    "image": "/productPhotos/Alpine/UrbanEdition.png",
+    "description": "Bring the crisp, invigorating feel of the mountains into the heart of the city with the Alpine Urban Edition sunglasses. Designed for those who navigate the urban jungle but long for the serenity of alpine vistas, these sunglasses feature a durable metal frame and polarized lenses that cut through glare, whether from snow or sunlit streets.",
+    "features": [
+      "Sturdy metal frame with a sleek, minimalist design",
+      "Polarized lenses for superior clarity in bright, reflective conditions",
+      "Lightweight and comfortable, ideal for city life with a touch of mountain inspiration"
+    ]
+  },
+  {
+    "id": "alpine-fusion",
+    "name": "Alpine Fusion Edition",
+    "series": "Alpine",
+    "price": 74.99,
+    "image": "/productPhotos/Alpine/FusionEdition.png",
+    "description": "Experience the best of mountain style with the Alpine Fusion Edition. This edition combines natural wood with resilient metal, echoing the harmony of nature’s toughest terrains. Whether you’re climbing city steps or hiking rugged trails, these sunglasses provide the perfect balance of style and function.",
+    "features": [
+      "Wood and metal hybrid frame for a unique, eco-friendly design",
+      "Lenses that enhance contrast and protect against UV rays",
+      "Rugged yet refined, perfect for urban explorers who stay grounded in nature"
+    ]
+  },
+  {
+    "id": "alpine-explorer",
+    "name": "Alpine Explorer Edition",
+    "series": "Alpine",
+    "price": 74.99,
+    "image": "/productPhotos/Alpine/ExplorerEdition.png",
+    "description": "Conquer the heights and embrace the chill with the Alpine Explorer Edition sunglasses. Built for adventure seekers and thrill enthusiasts, these sunglasses offer a perfect balance of rugged durability and premium style. Designed to withstand extreme conditions, they provide superior protection against snow glare and mountain winds.",
+    "features": [
+      "Impact-resistant frame engineered for high-altitude adventures",
+      "Anti-fog, polarized lenses designed for optimal vision in snowy conditions",
+      "Adjustable, secure fit for high-intensity movement and outdoor resilience"
+    ]
+  },
+  {
+    "id": "sahara-urban",
+    "name": "Sahara Urban Edition",
+    "series": "Sahara",
+    "price": 74.99,
+    "image": "/productPhotos/Sahara/UrbanEdition.png",
+    "description": "Inspired by the golden hues of desert landscapes, the Sahara Urban Edition sunglasses blend contemporary style with the resilience of the sands. Featuring a lightweight yet durable metal frame, these sunglasses offer a refined look while ensuring optimal sun protection for those navigating bustling city streets under the scorching sun.",
+    "features": [
+      "Sleek metal frame with a desert-inspired gold finish",
+      "High-contrast polarized lenses for reduced glare in intense sunlight",
+      "Lightweight design perfect for daily urban wear"
+    ]
+  },
+  {
+    "id": "sahara-fusion",
+    "name": "Sahara Fusion Edition",
+    "series": "Sahara",
+    "price": 74.99,
+    "image": "/productPhotos/Sahara/FusionEdition.png",
+    "description": "Designed for explorers who tread the fine line between civilization and the vast wilderness, the Sahara Fusion Edition sunglasses feature a blend of natural wood and resilient metal. Inspired by the shifting dunes and rich cultural heritage of desert landscapes, these sunglasses bring together tradition and modernity.",
+    "features": [
+      "Hybrid wood-metal frame for an earthy, elegant aesthetic",
+      "Lenses optimized for high-glare desert conditions",
+      "Robust build for long-lasting comfort and endurance"
+    ]
+  },
+  {
+    "id": "sahara-explorer",
+    "name": "Sahara Explorer Edition",
+    "series": "Sahara",
+    "price": 74.99,
+    "image": "/productPhotos/Sahara/ExplorerEdition.png",
+    "description": "Engineered for the relentless heat and the shifting sands, the Sahara Explorer Edition sunglasses provide maximum durability and protection. Whether trekking across sun-scorched dunes or navigating off-road trails, these sunglasses ensure clarity, comfort, and resilience against the harshest desert elements.",
+    "features": [
+      "High-impact resistant frame for rugged outdoor exploration",
+      "Sand-repellent and scratch-resistant lenses for maximum durability",
+      "Wide coverage for superior eye protection in extreme sunlight"
+    ]
+  }
+]
