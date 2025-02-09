@@ -8,8 +8,16 @@ const Navbar = () => {
     return (
         <nav className="bg-[#F5F4EE] shadow-md relative z-50">
             <div className="container mx-auto px-6 flex items-center justify-between h-16">
-                
-                {/* Left Side - Navigation Links */}
+
+                {/* Hamburger Menu for Mobile */}
+                <button 
+                    className="md:hidden text-gray-800" 
+                    onClick={() => setMenuOpen(!menuOpen)}
+                >
+                    {menuOpen ? <X size={28} /> : <Menu size={28} />}
+                </button>
+
+                {/* Left Side - Navigation Links (Desktop) */}
                 <div className="hidden md:flex space-x-8 text-lg font-medium text-gray-800">
                     
                     {/* Shop Dropdown */}
@@ -35,6 +43,37 @@ const Navbar = () => {
                 <Link to="/cart" className="hidden md:flex items-center text-gray-800">
                     <ShoppingCart size={22} className="mr-2" />
                 </Link>
+            </div>
+
+            {/* Mobile Menu (Sliding in from Left) */}
+            <div className={`fixed top-0 left-0 w-64 h-full bg-white shadow-md transform ${menuOpen ? "translate-x-0" : "-translate-x-full"} transition-transform duration-300 md:hidden z-50`}>
+                <button 
+                    className="absolute top-4 right-4 text-gray-800" 
+                    onClick={() => setMenuOpen(false)}
+                >
+                    <X size={28} />
+                </button>
+
+                <div className="flex flex-col items-start p-6 space-y-6 text-lg font-medium text-gray-800">
+                    <Link to="/" className="hover:text-gray-500" onClick={() => setMenuOpen(false)}>Home</Link>
+                    
+                    {/* Mobile Shop Dropdown */}
+                    <div className="w-full">
+                        <button className="flex items-center w-full focus:outline-none">
+                            Shop <ChevronDown size={16} className="ml-1" />
+                        </button>
+                        <div className="mt-2 pl-4 space-y-2">
+                            <Link to="/shop" className="block hover:text-gray-500" onClick={() => setMenuOpen(false)}>All Products</Link>
+                            <Link to="/shop/NeptuneSeries" className="block hover:text-gray-500" onClick={() => setMenuOpen(false)}>Neptune Series</Link>
+                            <Link to="/shop/AlpineSeries" className="block hover:text-gray-500" onClick={() => setMenuOpen(false)}>Alpine Series</Link>
+                            <Link to="/shop/SaharaSeries" className="block hover:text-gray-500" onClick={() => setMenuOpen(false)}>Sahara Series</Link>
+                        </div>
+                    </div>
+
+                    <Link to="/support" className="hover:text-gray-500" onClick={() => setMenuOpen(false)}>Support Us</Link>
+                    <Link to="/about" className="hover:text-gray-500" onClick={() => setMenuOpen(false)}>About Us</Link>
+                    <Link to="/contact" className="hover:text-gray-500" onClick={() => setMenuOpen(false)}>Contact</Link>
+                </div>
             </div>
         </nav>
     );

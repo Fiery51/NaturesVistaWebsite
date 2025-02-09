@@ -1,6 +1,9 @@
 import FullHeader from "../components/FullHeader";
+import { useNavigate } from "react-router-dom";
 
 const SupportUs = () => {
+    const navigate = useNavigate();
+
     return (
         <div>
             <FullHeader />
@@ -12,7 +15,6 @@ const SupportUs = () => {
                     high-quality sunglasses inspired by nature.
                 </p>
 
-                {/* 📢 Ways to Support */}
                 <div className="max-w-4xl mt-12 grid grid-cols-1 md:grid-cols-2 gap-10">
                     
                     {/* Spread the Word */}
@@ -24,20 +26,20 @@ const SupportUs = () => {
                         </p>
                     </div>
 
-                    {/* Future Funding Section */}
+                    {/* Email List Section */}
                     <div className="p-6 bg-white rounded-lg shadow-lg text-center">
-                        <h2 className="text-2xl font-semibold">🚀 Funding Coming Soon</h2>
+                        <h2 className="text-2xl font-semibold">📩 Stay Updated</h2>
                         <p className="text-lg text-gray-700 mt-2">
-                            In the near future, we'll be launching crowdfunding and other ways for  
-                            supporters to back our journey. Stay tuned for updates!
+                            Join our email list to get exclusive updates and be the first to know about launches.
                         </p>
-                        <p className="text-gray-500 text-sm mt-2">More details coming soon.</p>
                     </div>
                 </div>
 
-                {/* Call-to-Action Button */}
-                <button className="mt-10 bg-[#F1DBCE] hover:bg-[#e5c1b0] text-[#262522] px-6 py-3 text-lg rounded-md transition">
-                    Learn More
+                {/* Email Signup Button */}
+                <button 
+                    onClick={() => navigate("/waitlist")} 
+                    className="mt-10 bg-[#F1DBCE] hover:bg-[#e5c1b0] text-[#262522] px-6 py-3 text-lg rounded-md transition">
+                    Sign Up for Updates
                 </button>
             </div>
         </div>
