@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { CartProvider } from "./context/CartContext"; // ✅ Import Cart Provider
+import { CartProvider } from "./context/CartContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import ShopAll from "./pages/ShopAll";
@@ -9,6 +9,7 @@ import SupportUs from "./pages/SupportUs";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import CartPage from "./pages/CartPage";
+import Waitlist from "./pages/Waitlist";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
                 <Route path="/support" element={<SupportUs />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/waitlist" element={<Waitlist />} />
             </Routes>
         </CartProvider>
     );
