@@ -15,20 +15,33 @@ const Waitlist = () => {
         return emailRegex.test(email);
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        
+    
         if (!validateEmail(email)) {
             alert("Please enter a valid email address.");
             return;
         }
-
-        // Simulate sending data to backend
-        console.log("Submitting to backend:", { email, productInterest });
-        // TODO: Replace with actual backend request when ready
-        
-        setSubmitted(true);
+    
+        try {
+            const response = await fetch("https://naturesvista-backend.onrender.com/api/waitlist", { // ✅ Use live backend
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ email, source: "waitlistPage" }),
+            });
+    
+            const data = await response.json();
+            if (response.ok) {
+                setSubmitted(true);
+            } else {
+                alert(data.error);
+            }
+        } catch (error) {
+            alert("Error submitting email. Try again later.");
+        }
     };
+    
+    
 
     return (
         <div>
