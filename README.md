@@ -1,4 +1,4 @@
 View the website here:
 https://naturesvistasunglasses.com/
 
-Just a simple frontend using react!
+A full stack app using React + Express.js!
