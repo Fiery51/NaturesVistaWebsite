@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react"; // Import Icons
 import FullHeader from "../components/FullHeader";
+import FeaturedProducts from "../components/FeaturedProducts";
 
 // ✅ Correct Image Paths (No "public/" in paths)
 const heroImages = [
@@ -75,14 +76,9 @@ const Home = () => {
 
             {/* 🌟 Featured Products */}
             <section className="py-16 bg-[#F1DBCE] text-center">
-                <h2 className="text-3xl font-bold">Featured Collection</h2>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-6 px-6 max-w-6xl mx-auto">
-                    {/* Placeholder Products */}
-                    <div className="p-4 bg-white rounded-lg shadow-md">Product 1</div>
-                    <div className="p-4 bg-white rounded-lg shadow-md">Product 2</div>
-                    <div className="p-4 bg-white rounded-lg shadow-md">Product 3</div>
-                </div>
+                <FeaturedProducts />
             </section>
+
 
             {/* 🌿 Footer */}
             <footer className="bg-[#262522] text-white py-8 text-center">
