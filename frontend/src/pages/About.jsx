@@ -34,13 +34,12 @@ const About = () => {
                         </p>
                         <p className="text-lg text-gray-700 mt-4">
                             Each collection is more than just sunglasses—it's a tribute to the landscapes that inspire us.
-                            We capture the raw beauty of the world and translate it into functional, <strong>elegantly designed eyewear</strong>
-                            that speaks to the explorer in you.
+                            We capture the raw beauty of the world and translate it into functional, <strong>elegantly designed eyewear</strong> that speaks to the explorer in you.
                         </p>
 
                         <h2 className="text-2xl font-semibold mt-6">A Collection for Every Landscape</h2>
                         <p className="text-lg text-gray-700 mt-2">
-                            The <strong>Neptune Series</strong>s is for the dreamers drawn to the ocean—the ones who chase waves,  
+                            The <strong>Neptune Series</strong> is for the dreamers drawn to the ocean—the ones who chase waves,  
                             breathe in the salty air, and find freedom in the open sea.
                         </p>
                         <p className="text-lg text-gray-700 mt-2">

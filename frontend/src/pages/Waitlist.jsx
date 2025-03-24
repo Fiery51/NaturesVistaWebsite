@@ -24,10 +24,10 @@ const Waitlist = () => {
         }
     
         try {
-            const response = await fetch("https://naturesvista-backend.onrender.com/api/waitlist", { // ✅ Use live backend
+            const response = await fetch("https://naturesvista-backend.onrender.com/api/waitlist", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ email, source: "waitlistPage" }),
+                body: JSON.stringify({ email, source: productInterest }),
             });
     
             const data = await response.json();
